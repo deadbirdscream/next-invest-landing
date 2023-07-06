@@ -1,0 +1,265 @@
+.container {
+  width: 1920px;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: black;
+}
+
+:root {
+  --color-primary:  #128C76;
+  --color-grey1: #333;
+  --color-secondary: #F56B8D;
+
+}
+
+.header {
+  height: 90px;
+}
+
+.header__logo {
+  margin-top: 33px;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 24px;
+  margin: 16px 0px 14px 0;
+}
+
+.header__list:last-child {
+margin-right: 0;
+}
+
+.header__item {
+  margin-right: 16px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+.header__link {
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  /* padding: 16px 0 14px 0; */
+}
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.header__button-login {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #128C76;
+  color: white;
+  padding: 16px 40px 14px 40px;
+  margin-left: 24px;
+  margin-right: 16px;
+  border: none;
+}
+
+.header__button-register {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: white;
+  color: var(--color-secondary);
+  border: 1px solid;
+  border-color: var(--color-secondary);
+  padding: 16px 40px 14px 40px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* block "start" */
+
+.start {
+  position: relative;
+  width: 1920px;
+  height: 780px;
+}
+
+.start__img {
+  position: relative;
+  height: 780px;
+}
+
+.start__circle {
+  position: absolute;
+  top: 61px;
+  left: 227px;
+}
+
+.start__streak {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.start__content {
+  position: absolute;
+  top: 202px;
+  left: 375px;
+}
+
+.start__headline {
+  width: 770px;
+  height: 160px;
+  position: absolute;
+  font-family: inherit;
+  color: white;
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 700;
+}
+
+.start__desc {
+  width: 470px;
+  height: 64px;
+  position: absolute;
+  font-family: inherit;
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  padding-top: 200px;
+}
+
+.start__button {
+  background-color: #128C76;
+  position: absolute;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  top: 304px;
+  width: 270px;
+  height: 70px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* block offerings */
+
+.offerings {
+  height: 1682px;
+  width: 1170px;
+}
+
+.offerings__shape {
+  position: absolute;
+  padding-top: 597px;
+  padding-left: 39px;
+}
+
+.offerings__content {
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 160px;
+  width: 770px;
+  height: 152px;
+  margin-bottom: 60px;
+}
+
+.offerings__headline {
+  color: var(--color-grey1);
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.offerings__desc {
+  color: var(--color-grey1);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.oxalis {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+
+.oxalis__card {
+  width: 370px;
+  height: 480px;
+  box-shadow: 0 0 24px rgba(0,0,0,0.5);
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+/* ТЕНЬ ПОД БОЛЬШИМ ВОПРОСОМ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.oxalis__desc {
+  margin: 24px 24px 24px 24px;
+}
+
+.oxalis__title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-grey1);
+}
+
+.oxalis__subtitle {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  margin-bottom: 24px;
+}
+
+.oxalis__desc-text {
+  width: 322px;
+  height: 48px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-grey1);
+  margin-bottom: 24px;
+}
+
+.oxalis__progress {
+  margin-bottom: 24px;
+}
+
+.oxalis__line  {
+  justify-content: center;
+  width: 322px;
+  margin: 0 auto;
+  height: 0px;
+  border: 1px solid #ECECEC;
+}
+
