@@ -1,2 +1,2 @@
 # next-invest-landing
-link - https://deadbirdscream.github.io/next-invest-landing/
+link - https://septmeber23.github.io/next-invest-landing/
