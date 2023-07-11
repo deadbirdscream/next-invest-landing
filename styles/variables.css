@@ -4,3 +4,10 @@
   --color-secondary: #F56B8D;
   --color-grey2: #999;
 }
+
+[root-dark] {
+  --color-primary:  #293533;
+  --color-grey1: #b42d2d;
+  --color-secondary: #8eb49b;
+  --color-grey2: #eeeded;
+}
